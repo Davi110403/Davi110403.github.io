@@ -1,0 +1,167 @@
+﻿1
+00:00:00,166 --> 00:00:05,899
+Welcome to this video, today I will talk about the 1.4.12 criterion concerning spacing
+
+2
+00:00:05,900 --> 00:00:13,400
+What is the purpose of this policy ?, the purpose of this policy is to provide users with a better reading experience.
+
+3
+00:00:13,466 --> 00:00:27,566
+Furthermore, this criterion focuses on the possibility of increasing the spacing between lines, words, letters and paragraphs and any of these combinations can help the user to effectively read the text.
+
+4
+00:00:27,566 --> 00:00:39,999
+Of this criterion I decided to deepen the parameters that allow the user, even those with difficulty, a better view of the text, without causing loss of content and functionality.
+
+5
+00:00:40,000 --> 00:00:50,100
+ 
+Among these parameters is the line height which must be at least 1.5 times the font size.
+
+6
+00:00:50,100 --> 00:00:57,900
+ 
+To represent this parameter I used the line-height and set it to two
+
+7
+00:00:57,900 --> 00:01:11,466
+and as we can see, there is a distance, which is double the font size, between one line and another.
+
+8
+00:01:11,466 --> 00:01:25,532
+In fact, by increasing the height of the line, the distance between one line and another will also increase.
+
+9
+00:01:27,733 --> 00:01:34,399
+ 
+Next is the spacing after the paragraphs, which must be at least twice the font size.
+
+10
+00:01:34,400 --> 00:01:51,666
+ 
+In this case I decided to set the margin-bottom, I set it to two and as we can see this is the result that appears on the internet and of course by increasing the value, the distance between one paragraph and another will also increase.
+
+11
+00:01:51,666 --> 00:01:51,699
+
+
+12
+00:01:52,900 --> 00:02:00,966
+ 
+Moving forward, there is the spacing between the letters which must be at least 0.12 times the font size.
+
+13
+00:02:00,966 --> 00:02:08,666
+ 
+In this case I used letter-spacing, which would be the space between the letters
+
+14
+00:02:08,666 --> 00:02:19,466
+ 
+and letter-spacing, in fact, allows developers to control the amount of white space between characters.
+
+15
+00:02:20,666 --> 00:02:41,632
+ 
+As we can see this is the result obtained on the web page, and if I increase this value, the space between the various letters will also increase.
+
+16
+00:02:41,700 --> 00:02:45,700
+ 
+So the space will become double.
+
+17
+00:02:48,333 --> 00:02:49,066
+okay, 
+
+18
+00:02:50,066 --> 00:02:54,066
+ 
+finally there is the spacing between words,
+
+19
+00:02:54,366 --> 00:02:58,299
+ 
+which must be at least 0.16 times the font size.
+
+20
+00:02:58,566 --> 00:03:02,832
+ 
+In this case I decided to use word-spacing,
+
+21
+00:03:04,166 --> 00:03:11,299
+ 
+and as we can see between one word and the other there are spaces
+
+22
+00:03:11,300 --> 00:03:18,233
+ 
+and precisely by increasing this value, the space between one word and another will also increase.
+
+23
+00:03:18,533 --> 00:03:26,733
+ 
+I also decided to deepen two other criteria: the c36 criterion and the c35.
+
+24
+00:03:26,866 --> 00:03:31,399
+ 
+The c36 allows replacement of text spacing
+
+25
+00:03:31,766 --> 00:03:39,766
+ 
+and there are various ways to allow text spacing to be replaced and both affect the height.
+
+26
+00:03:40,133 --> 00:03:51,466
+ 
+In fact, as we can see in this case I have declared two paragraphs, one in bold and another with a simple font
+
+27
+00:03:52,833 --> 00:03:54,433
+ 
+a neutral font,
+
+28
+00:03:54,533 --> 00:03:59,299
+ 
+and I declared as height, an automatic height
+
+29
+00:03:59,300 --> 00:04:08,866
+ 
+and as we can see we have no difficulty in reading the text and the two paragraphs are in fact legible.
+
+30
+00:04:09,366 --> 00:04:16,199
+ 
+Same thing happens when we delete the height and therefore don't define it
+
+31
+00:04:16,833 --> 00:04:20,833
+ 
+same thing happens with this one ..
+
+32
+00:04:20,833 --> 00:04:31,966
+ 
+Also using the file that I found on the reference site that checked all the various spacings,
+
+33
+00:04:32,066 --> 00:04:40,066
+ 
+in fact, as we can see, even using this file will not change anything and the text will still be readable.
+
+34
+00:04:40,200 --> 00:04:55,100
+ 
+Instead, when we are going to specify a precise height, we put a height of 10 pixels in the first paragraph and in the second paragraph we put a height of 20 pixels
+
+35
+00:04:55,400 --> 00:05:12,733
+ 
+as we can see in this case the two paragraphs will overlap and even using the spacing file, verification found on the site, we will see that in any case the text will not be readable.
+

@@ -1,0 +1,140 @@
+﻿1
+00:00:00,166 --> 00:00:05,899
+Benvenuti in questo video, oggi parlerò del criterio 1.4.12 che riguarda la spaziatura
+
+2
+00:00:05,900 --> 00:00:13,400
+Qual'è lo scopo di questo criterio?, lo scopo di questo criterio è quello di garantire agli utenti una migliore esperienza di lettura.
+
+3
+00:00:13,466 --> 00:00:27,566
+Inoltre questo criterio si concentra sulla possibilità di aumentare la spaziatura tra righe, parole, lettere e paragrafi e qualsiasi di queste combinazioni può aiutare appunto l'utente a leggere efficacemente il testo.
+
+4
+00:00:27,566 --> 00:00:39,999
+Di questo criterio ho deciso di approfondire dei parametri che permettono all'utente, anche quelli con difficoltà una visione migliore del testo, non causando perdite di contenuto e funzionalità. 
+
+5
+00:00:40,000 --> 00:00:50,100
+Tra questi parametri vi è 'altezza della linea che deve essere almeno di 1,5 volte la dimensione del carattere.
+
+6
+00:00:50,100 --> 00:00:57,900
+Per rappresentare appunto questo parametro ho utilizzato il line-height e l'ho impostato a due
+
+7
+00:00:57,900 --> 00:01:11,466
+e come possiamo vedere, vi è una distanza, che è il doppio della dimensione del carattere, tra una linea e l'altra.
+
+8
+00:01:11,466 --> 00:01:25,532
+Infatti aumentando, appunto questo valore, il valore dell'altezza della linea, aumenterà anche la distanza tra una linea e l'altra.
+
+9
+00:01:27,700 --> 00:01:34,366
+Successivamente vi è la spaziatura dopo i paragrafi, che deve essere almeno due volte la dimensione del carattere.
+
+10
+00:01:34,366 --> 00:01:51,632
+In questo caso ho deciso di impostare il margin-bottom, io l'ho impostato vabbè a due e come possiamo vedere questo è il risultato che appare su internet e naturalmente aumentando il valore, aumenterà anche la distanza tra un paragrafo e l'altro. 
+
+11
+00:01:51,633 --> 00:01:51,666
+
+
+12
+00:01:52,900 --> 00:02:00,966
+Andando avanti, vi è la spaziatura tra le lettere che deve essere almeno di 0,12 volte la dimensione del carattere.
+
+13
+00:02:00,966 --> 00:02:08,666
+In questo caso ho utilizzato il letter-spacing, che sarebbe appunto lo spazio tra le lettere
+
+14
+00:02:08,666 --> 00:02:19,466
+e il letter-spacing, appunto, consente agli sviluppatori di controllare la quantità di spazio vuoto tra i caratteri.
+
+15
+00:02:20,666 --> 00:02:41,632
+Come possiamo vedere questo è il risultato ottenuto sulla pagina web, e se appunto, aumento questo valore, aumenterà anche lo spazio tra le varie lettere.
+
+16
+00:02:41,700 --> 00:02:45,700
+Quindi lo spazio diventerà il doppio.
+
+17
+00:02:48,333 --> 00:02:49,066
+okay, 
+
+18
+00:02:50,066 --> 00:02:54,066
+infine vi è la spaziatura tra le parole,
+
+19
+00:02:54,366 --> 00:02:58,299
+che deve essere almeno 0,16 volte la dimensione del carattere.
+
+20
+00:02:58,566 --> 00:03:02,832
+In questo caso ho deciso di utilizzare il word-spacing,
+
+21
+00:03:04,166 --> 00:03:11,299
+e come possiamo vedere tra una parola e l' altra vi sono degli spazi
+
+22
+00:03:11,300 --> 00:03:18,233
+e aumentando appunto questo valore, aumenterà anche lo spazio tra una parola e l'altra.
+
+23
+00:03:18,533 --> 00:03:26,733
+Inoltre ho deciso di approfondire altri due criteri: il criterio c36 e il c35.
+
+24
+00:03:26,866 --> 00:03:31,399
+Il c36 consente la sostituzione della spaziatura del testo
+
+25
+00:03:31,566 --> 00:03:39,566
+e ci sono vari modi per consentire la sostituzione della spaziatura del testo e tutti e due influiscono sull'altezza.
+
+26
+00:03:40,100 --> 00:03:51,433
+Infatti come possiamo vedere il questo caso ho dichiarato due paragrafi, uno in grassetto e un' altro con un font appunto semplice
+
+27
+00:03:52,833 --> 00:03:54,433
+un font neutro,
+
+28
+00:03:54,533 --> 00:03:59,299
+e ho dichiarato come altezza,un altezza automatica
+
+29
+00:03:59,300 --> 00:04:08,866
+e come possiamo vedere non abbiamo nessuna difficoltà nel leggere il testo e i due paragrafi appunto, sono leggibili.
+
+30
+00:04:09,366 --> 00:04:16,199
+Stessa cosa accade quando eliminiamo l'altezza e quindi non la definiamo
+
+31
+00:04:16,833 --> 00:04:20,833
+stessa cosa accade con questo..
+
+32
+00:04:20,833 --> 00:04:31,966
+Utilizzando anche il file che ho trovato appunto sul sito di riferimento che verificava tutte le varie spaziature,
+
+33
+00:04:32,066 --> 00:04:40,066
+infatti come possiamo vedere, anche utilizzando questo file non cambierà nulla e il testo sarà comunque leggibile.
+
+34
+00:04:40,166 --> 00:04:55,066
+Invece quando noi andremo a specificare un'altezza precisa, mettiamo caso nel primo paragrafo mettiamo un'altezza di 10 pixel e nel secondo paragrafo mettiamo un'altezza di 20 pixel
+
+35
+00:04:55,300 --> 00:05:12,633
+come possiamo vedere in questo caso i due paragrafi si andranno a sovrapporre e anche utilizzando il file di spaziatura, di verifica trovato sul sito, vedremo che comunque il testo non sarà leggibile.
+
